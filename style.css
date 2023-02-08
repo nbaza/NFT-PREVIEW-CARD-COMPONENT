@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+.myDiv {
+  background-color: #15263f;
+  width: 302px;
+  height: 548px;
+  margin: auto;
+  border-radius: 15px;
+  padding: 24px;
+}
+
+body {
+  background-color: #0d192c;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigImg {
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  font-size: 22px;
+  font-family: "Outfit";
+  font-weight: 600px;
+}
+
+p {
+  color: #8bacd9;
+  font-size: 18px;
+  font-weight: 300px;
+  font-family: "Outfit";
+}
+
+.price {
+  font-size: 16px;
+  font-family: "Outfit";
+  color: #00fff8;
+  font-weight: 600px;
+  vertical-align: top;
+  display: inline;
+}
+
+#priceAndTime {
+  margin-top: 8px;
+  /* padding თუ margin ??*/
+}
+
+#clockImg {
+  /* # თუ . */
+  margin-left: 110.82px;
+}
+
+.time {
+  font-size: 16px;
+  font-family: "Outfit";
+  font-weight: 400px;
+  color: #8bacd9;
+  display: inline;
+  vertical-align: top;
+}
+
+.myHr {
+  height: 1px;
+  background-color: #2e405a;
+  border: none; /* ras nishnavs? */
+  margin-top: 24px;
+}
+
+.julesPic {
+  margin-top: 16px;
+}
+
+.julesText {
+  font-size: 16px;
+  font-family: "Outfit";
+  color: #8bacd9;
+  display: inline-block;
+  margin-left: 16px;
+  position: relative;
+  bottom: 12px;
+}
+
+#eyepic {
+  opacity: 1;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: none;
+}
+
+h1:hover {
+  color: cyan;
+  cursor: pointer;
+}
+
+.creatorName {
+  color: white;
+}
+
+.creatorName:hover {
+  color: cyan;
+  cursor: pointer;
+}
+
+.colorphoto {
+  position: absolute;
+  width: 302px;
+  height: 302px;
+  background-color: cyan;
+  border-radius: 10px;
+}
+.pics {
+  border-radius: 8px;
+  position: relative;
+}
+
+.pics:hover .bigImg {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.pics:hover #eyepic {
+  display: block;
+  cursor: pointer;
+}
